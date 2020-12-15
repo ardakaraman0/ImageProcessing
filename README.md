@@ -18,3 +18,8 @@ Can be used as:
 ```bash
 python <image_file> 
 ```
+
+## Requirements
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/)
