@@ -8,3 +8,20 @@ without using OpenCV or sci-kit image frameworks.
 # Canny Edge Detector
 The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. 
 The algorithm is implemented without using OpenCV or sci-kit image frameworks. 
+
+# Object Counting using Morphological operations
+A collection of non-linear operations related to the shape or morphology of features in an image is known as Morphological Operation in Image Processing. 
+A threshold of the picture was taken. 
+The threshold parameters varied according to the pictures.
+ 
+The threshold function goes like this; 
+- For every pixel, the same threshold value is applied. 
+- If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to the maximum value determined by the program.
+
+After the threshold function is applied, a set of morphological operations were applied. 
+The morphological operations were needed to count the images in a more convenient way. 
+The last part of the algorithm which was to count the objects, was done by the ultimate erosion function. 
+Lastly, the white pixels left in the image are counted to print the objects contained in the image.
+
+# K-Means & Watershed Algorithms
+Segmentation task done by using both algorithms.
