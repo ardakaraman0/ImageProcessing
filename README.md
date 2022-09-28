@@ -30,12 +30,10 @@ The last part of the algorithm which was to count the objects, was done by the u
 Lastly, the white pixels left in the image are counted to print the objects contained in the image.
 
 # K-Means & Watershed Algorithms
+
 Segmentation task done by using both algorithms.
-=======
-Can be used as:
-```bash
-python <image_file> 
-```
+ 
+
 
 ### Requirements
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
