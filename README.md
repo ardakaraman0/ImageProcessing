@@ -1,14 +1,20 @@
 # ImageProcessing
 This repo contains my own image processing/computer vision projects and code examples from my courses.
 
-# Histogram Matching
+## Histogram Matching
 Histogram matching or histogram specification is the transformation of an image so that its histogram matches another specified image's histogram. Implemented
 without using OpenCV or sci-kit image frameworks. 
 
-# Canny Edge Detector
+Can be used as:
+```bash
+python <source_image_file> <reference_image_file>
+```
+
+## Canny Edge Detector
 The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. 
 The algorithm is implemented without using OpenCV or sci-kit image frameworks. 
 
+<<<<<<< .merge_file_fdknPJ
 # Object Counting using Morphological operations
 A collection of non-linear operations related to the shape or morphology of features in an image is known as Morphological Operation in Image Processing. 
 A threshold of the picture was taken. 
@@ -25,3 +31,14 @@ Lastly, the white pixels left in the image are counted to print the objects cont
 
 # K-Means & Watershed Algorithms
 Segmentation task done by using both algorithms.
+=======
+Can be used as:
+```bash
+python <image_file> 
+```
+
+### Requirements
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/)
+>>>>>>> .merge_file_JG3hpg
